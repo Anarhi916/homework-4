@@ -1,0 +1,386 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(../images/background2.png) repeat-x;
+}
+
+.list{	
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	background-color: white;
+	box-shadow: 0 3px 5px;	
+}
+
+.contacts p:first-child{
+	opacity: 0.8;
+    color: #128aa7;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+.contacts{
+	font-size: 0;
+	opacity: 0.8;
+    color: #128aa7;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    right: 32px;   
+}
+
+.logo{
+	font-size: 0;
+	margin-top: 9px;
+	margin-left: 28px;
+	width: 283px;
+    height: 164px;
+    display: inline-block;
+    background: url(../images/logo.png);    
+}
+
+.link_logo{
+	display: block;
+	padding-top: 101px;
+	text-decoration: none;
+	text-align: center;		
+    color: #128aa7;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: 400;    
+}
+
+.india{
+	font-size: 0;
+	margin-left: 327px;
+	width: 42px;
+	height: 68px;
+	display: inline-block;
+	vertical-align: bottom;	
+}
+
+.india a {
+	display: block;
+	padding-top: 45px;
+	position: relative;
+	text-align: center;
+	color: #128aa7;
+    font-family: Tahoma;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.india a img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.nepal{
+	font-size: 0;
+	margin-left: 15px;
+	width: 42px;
+	height: 68px;
+	display: inline-block;
+	vertical-align: bottom;		
+}
+
+.nepal a {
+	display: block;
+	padding-top: 45px;
+	position: relative;
+	text-align: center;
+	color: #128aa7;
+    font-family: Tahoma;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.nepal a img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.tibet{
+	font-size: 0;
+	margin-left: 15px;
+	width: 42px;
+	height: 68px;
+	display: inline-block;
+	vertical-align: bottom;		
+}
+
+.tibet a {
+	display: block;
+	padding-top: 45px;
+	position: relative;
+	text-align: center;
+	color: #128aa7;
+    font-family: Tahoma;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.tibet a img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.bhutan{
+	font-size: 0;
+	margin-left: 15px;
+	width: 42px;
+	height: 68px;
+	display: inline-block;
+	vertical-align: bottom;		
+}
+
+.bhutan a {
+	display: block;
+	padding-top: 45px;
+	position: relative;
+	text-align: center;
+	color: #128aa7;
+    font-family: Tahoma;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.bhutan a img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.sri-lanka{
+	font-size: 0;
+	margin-left: 10px;
+	height: 68px;
+	display: inline-block;
+	vertical-align: bottom;		
+}
+
+.sri-lanka a {
+	display: block;
+	padding-top: 45px;
+	position: relative;
+	text-align: center;
+	color: #128aa7;
+    font-family: Tahoma;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.sri-lanka a img {
+	position: absolute;
+	top: 0;
+	left: 6px;
+}
+
+.maldives{
+	font-size: 0;
+	margin-left: 8px;
+	height: 68px;
+	display: inline-block;
+	vertical-align: bottom;		
+}
+
+.maldives a {
+	display: block;
+	padding-top: 45px;
+	position: relative;
+	text-align: center;
+	color: #128aa7;
+    font-family: Tahoma;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.maldives a img {
+	position: absolute;
+	top: 0;
+	left: 4px;
+}
+
+.foneimage{	
+	font-size: 0;
+	width: 1000px;
+    height: 237px;
+    background: url(../images/blueline.png) no-repeat,
+                url(../images/foneimage.png) no-repeat;     
+}
+
+.foneimage:after {
+	content: "";
+	clear: both;
+}
+
+.menu{
+	list-style: none;
+	height: 29px;
+	width: 1000px;
+	font-size: 0;
+	background-image: linear-gradient(to top, #303030 0%, #373737 100%);
+	box-shadow: 0 4px 10px;
+}
+
+.menu>li{	
+	display: inline-block;
+	position: relative;	
+	border-left: 1px solid transparent;
+    border-right: 1px solid transparent;	
+}
+
+.menu>li>a{
+	height: 29px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    
+}
+
+.menu_link_1{
+	width: 165px;
+	text-align: center;
+}
+
+.menu_link_2{
+	width: 150px;
+	text-indent: 10px;
+}
+
+.menu_link_3{
+	width: 120px;
+	text-indent: 10px;
+}
+
+.menu_link_4{
+	width: 138px;
+	text-indent: 10px;
+}
+
+.menu_link_5{
+	width: 158px;
+	text-indent: 10px;
+}
+
+.menu_link_6{
+	width: 108px;
+	text-align: center;
+}
+
+.menu_link_7{
+	width: 136px;
+	text-align: center;
+}
+
+.submenu{
+	display: none;
+	position: absolute;
+	width: 150px;
+	left: 0;
+	top: 29px;	
+	background-color: white;
+	border: 1px solid #303030;
+	box-shadow: 0 4px 10px;
+	border-top: 1px solid black;
+}
+
+.submenu>li{
+    display: block;    
+}
+
+.submenu>li>a{
+    display: block;    
+    color: white;
+    padding: 5px;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #303030;
+}
+
+.menu>li:hover>.submenu{
+    display: block;
+}
+
+span{
+	font-size: 10px;  //Белый треугольник для выпадающего меню
+}
+
+.fon_column{
+	margin-top: 8px;	
+	width: 1000px;	
+	overflow: hidden;		
+}
+
+.left_column{	
+	width: 208px;
+	float: left;
+	background: #edeef0;
+	padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    border-left: 1px solid #c7cacf;
+}
+
+.centr_column{
+	width: 582px;	
+	float: left;
+	background-color: white;
+	padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+}
+
+.right_column{
+	width: 208px;	
+	float: right;
+	background-color: #edeef0;
+	padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    border-right: 1px solid #c7cacf;
+}
+
+h3{
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.left_column_text,
+.right_column_text{
+	width: 170px;
+	margin-left: 16px;
+	color: #424c43;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.copyright{	
+	position: absolute;
+	left: 40%;
+	bottom: -30px;
+	opacity: 0.8;
+    color: white;
+    font-family: Tahoma;
+    font-size: 12pt;
+    font-weight: 400;
+}
